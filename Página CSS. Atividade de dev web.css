@@ -1,0 +1,69 @@
+/* Estilos para o menu vertical */
+nav {
+    flex-direction: column; /* Organiza os itens do menu em coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    width: 200px; /* Define a largura do menu */
+    height: 100vh; /* Altura total da tela */
+    background-color: #333; /* Cor de fundo do menu */
+    position: fixed; /* Fixo na tela, não rola com a página */
+    top: 0; /* Topo da tela */
+    left: 0; /* Esquerda da tela */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margin padrão da lista */
+  }
+  
+  nav li {
+    padding: 15px; /* Espaçamento entre os itens do menu */
+    border-bottom: 1px solid #CCC; /* Borda inferior para cada item */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    color: burlywood; /* Cor do texto dos links */
+  }
+  
+  nav a:hover { /* Estilos para links ao passar o mouse */
+    background-color: beige; /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Estilos para o menu horizontal */
+nav {
+    flex-direction: row; /* Organiza os itens do menu em linha */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 50px; /* Define a altura do menu */
+    background-color:black; /* Cor de fundo do menu */
+    position: fixed; /* Fixo na tela, não rola com a página */
+    top: 0; /* Topo da tela */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margin padrão da lista */
+    display: flex; /* Exibe os itens como flexbox */
+  }
+  
+  nav li {
+    padding: 10px 15px; /* Espaçamento entre os itens do menu */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    color: blue; /* Cor do texto dos links */
+  }
+  
+  nav a:hover { /* Estilos para links ao passar o mouse */
+    background-color: blanchedalmond; /* Cor de fundo ao passar o mouse */
+  }
+  
+
+  
+
+
+
