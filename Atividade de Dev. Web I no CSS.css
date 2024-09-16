@@ -1,0 +1,36 @@
+/* Definindo variáveis para cores */
+:root {
+    --cor-primaria: #3498db;
+    --cor-secundaria: #2ecc71;
+    --cor-texto: #333;
+    --cor-fundo: #f5f5f5;
+}
+
+/* Definindo variáveis para tipografia */
+:root {
+    --fonte-principal: 'Arial', sans-serif;
+    --tamanho-fonte: 16px;
+}
+
+/* Estilos globais */
+body {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+/* Definindo espaçamentos internos e margens */
+.container {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Definindo bordas para os elementos */
+.box {
+    border: 2px solid var(--cor-primaria);
+    padding: 10px;
+    margin: 10px;
+}
